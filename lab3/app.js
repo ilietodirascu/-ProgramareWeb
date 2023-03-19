@@ -77,15 +77,8 @@ function InjectElements() {
     });
     checkbox.addEventListener("change", (e) => {
       const parent_id = +e.target.closest(".task").dataset.id;
-      todos = todos.map(
-        (x) => {
-          debugger;
-          if (x.id === parent_id) {
-            return { id: x.id, name: x.name, done: !x.done };
-          }
-          return x;
-        }
-        // x.id === parent_id ? { id: x.id, name: x.name, done: !x.done } : x
+      todos = todos.map((x) =>
+        x.id === parent_id ? { id: x.id, name: x.name, done: !x.done } : x
       );
       localStorage.setItem("todos", JSON.stringify(todos));
       InjectElements();
