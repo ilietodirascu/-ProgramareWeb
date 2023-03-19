@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODIRASCU, ILIE, FAF-203</title>
+    <!-- CHANGE THESE VALUES -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <section class="app">
+      <div class="column">
+        <header class="container">
+          <h1>Task List</h1>
+          <form id="new-task-form">
+            <input
+              type="text"
+              id="new-task-input"
+              placeholder="What do you have planned?"
+            />
+            <input type="submit" value="Add Task" id="new-task-submit" />
+          </form>
+        </header>
+        <main class="container">
+          <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks"></div>
+          </section>
+        </main>
+      </div>
+      <div class="column">
+        <header class="container">
+          <h1>Done</h1>
+        </header>
+        <main class="container">
+          <div id="done_tasks"></div>
+        </main>
+      </div>
+    </section>
+  </body>
+</html>
