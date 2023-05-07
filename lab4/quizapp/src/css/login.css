@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+input {
+  display: inline-block;
+}
+
+.page-container {
+  height: 100vh;
+  background-image: url("../images/cool-beach.jpg");
+  background-size: cover;
+}
+.centered-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+label {
+  color: #87ceeb;
+}
+.container {
+  width: 20%;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#loginButton {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}

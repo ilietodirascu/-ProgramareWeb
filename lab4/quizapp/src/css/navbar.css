@@ -1,0 +1,10 @@
+#logoutButton {
+  background-color: #ff0000;
+  position: absolute;
+  right: 0;
+  padding: 0.35em 0.65em;
+  color: white;
+  border: 0;
+  margin: 0.25em;
+  border-radius: 0.25em;
+}

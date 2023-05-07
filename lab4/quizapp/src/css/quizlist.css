@@ -1,0 +1,38 @@
+.quiz_card_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-container {
+  display: grid;
+  padding-top: 10em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+}
+.ui.card,
+.ui.cards > .card {
+  width: 100% !important;
+}
+a {
+  margin: 0;
+}
+.grid-item {
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Set the grid to have a maximum of 2 columns */
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* Set the grid to have a maximum of 1 column */
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
