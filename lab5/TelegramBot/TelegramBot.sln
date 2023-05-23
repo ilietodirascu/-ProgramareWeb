@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot", "TelegramBot\TelegramBot.csproj", "{839AAA89-14E7-4446-AEF9-3BEE70220AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{DC0DF20D-345F-4C7F-BEF0-84603A43194D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{B8BEBD7D-BA8D-491E-9A7E-F5A5359206C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{839AAA89-14E7-4446-AEF9-3BEE70220AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839AAA89-14E7-4446-AEF9-3BEE70220AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839AAA89-14E7-4446-AEF9-3BEE70220AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839AAA89-14E7-4446-AEF9-3BEE70220AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0DF20D-345F-4C7F-BEF0-84603A43194D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0DF20D-345F-4C7F-BEF0-84603A43194D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0DF20D-345F-4C7F-BEF0-84603A43194D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0DF20D-345F-4C7F-BEF0-84603A43194D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BEBD7D-BA8D-491E-9A7E-F5A5359206C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BEBD7D-BA8D-491E-9A7E-F5A5359206C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BEBD7D-BA8D-491E-9A7E-F5A5359206C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BEBD7D-BA8D-491E-9A7E-F5A5359206C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {990E371C-BF4B-4DB8-92FF-86ABC38AFB2C}
+	EndGlobalSection
+EndGlobal
